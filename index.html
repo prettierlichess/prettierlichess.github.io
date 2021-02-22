@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="https://unpkg.com/img-comparison-slider@3/dist/component/component.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/img-comparison-slider@3/dist/component/component.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@3/dist/collection/styles/initial.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Prettier Lichess</title>
+</head>
+
+<body>
+    <a href="https://noahsemus.com" target="_blank" class="me">
+        Made with love by <img src="./assets/face04.png" class="face">
+    </a>
+    <main>
+        <img src="./assets/logoTagline.svg" id="logo">
+        <img-comparison-slider>
+            <img slot="before" src="./assets/homepageScreenshotOld.png" class="screenshot" style="margin-bottom: calc(-2px - 2%);">
+            <img slot="after" src="./assets/homepageScreenshot.png" class="screenshot">
+        </img-comparison-slider>
+        <div class="text">
+            <strong>Lichess</strong> is a great platform that provides lots of fantastic free services like free analysis, studies, tournaments, and more. However, the site doesn't feel very contemporary, and this can turn many users off towards other platforms, and ultimately off an incredibly useful and amazing resource. <br><br><strong>Prettier Lichess</strong> is an attempt to fix that.
+        </div>
+        <button style="margin-top: 80px;">
+            Download it on the Chrome Web Store!
+        </button>
+        <div class="container">
+            <div class="imagesSlider">
+                <img src="./assets/Screenshot 01.png" class="sliderImage" id="first">
+                <img src="./assets/Screenshot 3.png" class="sliderImage">
+                <img src="./assets/Screenshot 2.png" class="sliderImage">
+                <img src="./assets/Screenshot 4.png" class="sliderImage">
+                <img src="./assets/Screenshot 5.png" class="sliderImage">
+            </div>
+        </div>
+        <div class="text">
+            <strong>Disclaimer:</strong> This extension is still in active development, and as such parts of the site are not yet completely styled. The homepage, profile page, match page, puzzle page, tournament page, and various study pages are all currently styled. In the roadmap, the entire site is set to be styled, as well as more custom color choices being available, and possibly user picked colors could become available as well.
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/scrollbooster@2/dist/scrollbooster.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
