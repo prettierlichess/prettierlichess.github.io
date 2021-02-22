@@ -87,6 +87,19 @@ main {
     align-items: center;
     max-width: 1200px;
     padding: 80px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    margin: 0;
+}
+
+h1 strong {
+    font-weight: 400;
+    color: var(--green);
 }
 
 .button {
@@ -109,10 +122,6 @@ main {
     transform: scale(1.02);
 }
 
-#logo {
-    margin-bottom: 80px;
-}
-
 img-comparison-slider {
     position: relative;
     box-shadow: var(--main-shadow);
@@ -120,6 +129,7 @@ img-comparison-slider {
     outline: none;
     width: 100%;
     padding: 0;
+    margin-top: 50px;
 }
 
 .screenshot {
