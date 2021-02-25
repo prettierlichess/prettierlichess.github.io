@@ -102,6 +102,13 @@ h1 strong {
     color: var(--green);
 }
 
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
 .button {
     padding: 20px;
     font-size: 16px;
@@ -120,6 +127,10 @@ h1 strong {
 .button:hover {
     box-shadow: 0 0 20px -5px rgba(195, 255, 168, 0.4);
     transform: scale(1.02);
+}
+
+.button:first-of-type {
+    margin-right: 20px;
 }
 
 img-comparison-slider {
